@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_scan_home_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/margin_short"
+            android:drawableTop="@mipmap/icon_scancode"
+            android:text="扫一扫" />
+
+        <RelativeLayout
+            android:id="@+id/rl_search_home_f"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="@dimen/margin_short"
+            android:layout_marginStart="@dimen/margin_short"
+            android:layout_marginTop="@dimen/margin_short"
+            android:layout_toEndOf="@id/tv_scan_home_f"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_search_f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/margin_short"
+                android:text="搜索"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/text_size_middle"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/et_key_words_search_home_f"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginEnd="@dimen/margin_short"
+                android:layout_marginStart="@dimen/margin_short"
+                android:layout_toStartOf="@id/tv_search_f"
+                android:background="@drawable/shape_button_white_edittext"
+                android:drawablePadding="@dimen/padding_short"
+                android:drawableStart="@mipmap/icon_search"
+                android:hint="请输入新人名称关键字"
+                android:paddingStart="@dimen/padding_short"
+                android:textSize="@dimen/text_size_smaller" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_message_home_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@mipmap/icon_scancode"
+            android:layout_marginEnd="@dimen/margin_short"
+            />
+
+    </RelativeLayout>
+
+    <include
+        layout="@layout/viewpager_home_f"
+        />
+</FrameLayout>

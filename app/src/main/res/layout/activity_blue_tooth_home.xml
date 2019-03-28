@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutBlueTooth.BlueToothHomeActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_open_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/open_bluetooth" />
+
+            <Button
+                android:id="@+id/btn_close_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/close_bluetooth" />
+
+            <Button
+                android:id="@+id/btn_find_device_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/find_device" />
+
+            <TextView
+                android:id="@+id/text_choosed_device_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short" />
+
+            <Button
+                android:id="@+id/btn_be_found_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/be_found_device" />
+
+            <Button
+                android:id="@+id/btn_gain_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/get_bonded_device" />
+
+            <TextView
+                android:id="@+id/text_gain_device_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short" />
+
+            <Button
+                android:id="@+id/btn_want_bond_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:background="#eee"
+                android:paddingEnd="@dimen/margin_short"
+                android:paddingTop="@dimen/margin_short"
+                android:text="@string/want_bond_device" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_send_message_blue_tooth_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_short"
+                    android:background="#eee"
+                    android:paddingEnd="@dimen/margin_short"
+                    android:paddingTop="@dimen/margin_short"
+                    android:text="@string/send_message" />
+
+                <EditText
+                    android:id="@+id/edit_blue_tooth_h"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_short"
+                    android:hint="填写要发送的数据"
+                    android:textColorHint="@color/text_gray" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_received_message_blue_tooth_h"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_short"
+                android:text="接收到的数据" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

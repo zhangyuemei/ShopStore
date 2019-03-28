@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/padding_long"
+    android:paddingTop="@dimen/padding_long">
+
+    <EditText
+        android:id="@+id/et_content_refuse_a"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginEnd="@dimen/margin_middle"
+        android:layout_marginStart="@dimen/margin_middle"
+        android:layout_marginTop="@dimen/margin_middle"
+        android:background="@color/white"
+        android:hint="请填写内容"
+        android:padding="@dimen/padding_little"
+        android:textSize="@dimen/margin_middle" />
+
+    <!--    <EditText
+            android:id="@+id/et_content_refuse_a"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginEnd="@dimen/margin_middle"
+            android:layout_marginStart="@dimen/margin_middle"
+            android:layout_marginTop="@dimen/margin_middle"
+            android:hint="请填写内容"
+            android:background="@color/white"
+            android:padding="@dimen/padding_little"
+            android:visibility="gone"
+            android:textSize="@dimen/margin_middle" />-->
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/et_content_refuse_a"
+        android:layout_marginBottom="@dimen/margin_middle"
+        android:layout_marginEnd="@dimen/margin_middle"
+        android:layout_marginStart="@dimen/margin_middle"
+        android:background="@color/line_blue" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_line"
+        android:layout_marginBottom="@dimen/margin_short"
+        android:layout_marginTop="@dimen/margin_middle"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/save_edit_content_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_middle"
+            android:background="@drawable/shape_blue_text_welcome"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_little"
+            android:paddingEnd="@dimen/padding_long"
+            android:paddingStart="@dimen/padding_long"
+            android:paddingTop="@dimen/padding_little"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_middle" />
+
+        <TextView
+            android:id="@+id/cancel_edit_content_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_middle"
+            android:layout_toEndOf="@id/save_edit_content_dialog"
+            android:background="@drawable/shape_blue_text_welcome"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_little"
+            android:paddingEnd="@dimen/padding_long"
+            android:paddingStart="@dimen/padding_long"
+            android:paddingTop="@dimen/padding_little"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_middle" />
+    </RelativeLayout>
+</RelativeLayout>

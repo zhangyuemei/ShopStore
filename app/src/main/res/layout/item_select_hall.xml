@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_user_ly_i"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/select_user_cb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_middle"
+        android:paddingEnd="0dp"
+        android:paddingStart="@dimen/padding_short"
+        android:paddingTop="@dimen/padding_middle"
+        android:paddingBottom="@dimen/padding_middle"
+        android:text="建设"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_middle" />
+</LinearLayout>

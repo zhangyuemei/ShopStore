@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation.AnimationActivity">
+
+    <ImageView
+        android:id="@+id/img_animation_a"
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/bu_play_animation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_middle" />
+
+    <Button
+        android:id="@+id/bu_play_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_short"
+        android:paddingEnd="@dimen/padding_middle"
+        android:paddingStart="@dimen/padding_middle"
+        android:paddingTop="@dimen/padding_short"
+        android:text="点击播放" />
+
+    <Button
+        android:id="@+id/bu_stop_animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:paddingBottom="@dimen/padding_short"
+        android:paddingEnd="@dimen/padding_middle"
+        android:paddingStart="@dimen/padding_middle"
+        android:paddingTop="@dimen/padding_short"
+        android:text="点击停止" />
+
+    <LinearLayout
+        android:id="@+id/ll_tween_animation_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_animation_a"
+        android:layout_marginTop="@dimen/margin_middle"
+        android:background="#eeeeee"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bu_alpha_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_short"
+            android:paddingEnd="@dimen/padding_middle"
+            android:paddingStart="@dimen/padding_middle"
+            android:paddingTop="@dimen/padding_short"
+            android:text="透明度" />
+
+        <Button
+            android:id="@+id/bu_transtion_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_short"
+            android:paddingEnd="@dimen/padding_middle"
+            android:paddingStart="@dimen/padding_middle"
+            android:paddingTop="@dimen/padding_short"
+            android:text="平移" />
+
+        <Button
+            android:id="@+id/bu_rotate_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_short"
+            android:paddingEnd="@dimen/padding_middle"
+            android:paddingStart="@dimen/padding_middle"
+            android:paddingTop="@dimen/padding_short"
+            android:text="旋转" />
+
+        <Button
+            android:id="@+id/bu_stretch_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_short"
+            android:paddingEnd="@dimen/padding_middle"
+            android:paddingStart="@dimen/padding_middle"
+            android:paddingTop="@dimen/padding_short"
+            android:text="拉伸" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_tween_anim_a"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/ll_tween_animation_a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_middle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_short"
+        android:text="属性动画" />
+
+</RelativeLayout>

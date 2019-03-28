@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="master_color">#FFCD00</color>
+    <color name="main_tab_selected_color">#EC1919</color>
+    <color name="main_tab_no_selected_color">#3C3F41</color>
+
+    <color name="line_bg">#F0F0F0</color>
+    <color name="text_gray">#B9B9B9</color>
+    <color name="text_black">#323232</color>
+    <color name="text_gray_normal">#777777</color>
+    <color name="text_gray_dark">#525252</color>
+
+    <color name="like_white">#F6F8FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_bg">#F8F8FF</color>
+    <color name="transport">#00000000</color>
+    <color name="part_of_transport">#e0000000</color>
+
+    <color name="main_tab_checked">#3d74c8</color>
+    <color name="main_tab_no_checked">#888888</color>
+
+    <color name="red">#F473A1</color>
+    <color name="date_picker_bg">#F3F3F3</color>
+
+    <color name="orange">#FF7735</color>
+
+    <color name="line_blue">#C9DAFF</color>
+    <color name="blue_title">#5C95FF</color>
+
+    <color name="bg_color_orange">#ffddaa</color>
+</resources>

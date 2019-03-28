@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShopStore</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="open_bluetooth">打开蓝牙</string>
+    <string name="close_bluetooth">关闭蓝牙</string>
+    <string name="find_device">扫描设备</string>
+    <string name="be_found_device">设置当前设备可被扫描到</string>
+    <string name="get_bonded_device">获取已配对设备</string>
+    <string name="want_bond_device">设置想要配对的设备蓝牙地址</string>
+    <string name="send_message">发送消息</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
